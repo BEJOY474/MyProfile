@@ -1,0 +1,447 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* nav-bar style start */
+
+nav#nav {
+    margin-right: 5rem;
+    display: inline;
+    float: right;
+    position: relative;
+    
+}
+
+section.introductionPart {
+    position: relative;
+    top: 70px;
+}
+
+nav#nav ul li {
+    
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    transition: 0.5s;
+    
+}
+
+nav#nav ul li a{
+ 
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+   
+}
+
+nav#nav ul li:hover{ 
+        transform: scale(1.2);
+        text-decoration: underline;
+
+}
+
+/* nav-bar style end */
+
+
+/*profile section style start */
+
+.profileDetails {
+    width: 50%;
+    position: relative;
+}
+
+.leftSide {
+    position: relative;
+    left: 12%;
+    float: left;
+    padding-left: 2%;
+}
+
+.leftSide h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+span.spnClass {
+    color: red;
+}
+
+a.HereBtn {
+    position: relative;
+    border-radius: 50%;
+}
+
+.btn1 {
+
+    background-image: linear-gradient( 180deg,#227093,#2c2c54);
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn1 a {
+    color: wheat;
+    text-decoration: none;
+    margin-left: 39px;
+}
+
+.profileImage img {
+    width: 525px;
+    height: 500px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    right: 45px;
+}
+/*profile section style end */
+
+/* <!-- about section start--> */
+section.about {
+    display: inline-block;
+    width: 100%;
+}
+.leftSide1 img {
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+    float: left;
+}
+
+.leftSide1 {
+    width: 50%;
+    margin-left: 7rem;
+    margin-top: 6rem;
+}
+
+.aboutInfo {
+    width: 40%;
+    float: left;
+    padding-left: 140px;
+}
+
+.aboutInfo h1 {
+    font-size: 40px;
+}
+
+.aboutInfo p {
+    font-size: 15px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    color: #696969;
+}
+
+.btn2 {
+    width: 40%;
+    background-image: linear-gradient( 180deg,#227093,#2c2c54);  
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+i.fas.fa-arrow-circle-down {
+    position: relative;
+    top: 6px;
+    left: 30px;
+    font-size: 14px;
+    color: white;
+}
+
+a.HereBn {
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    position: relative;
+    top: 9px;
+    left: 19px;
+    border-radius: 50%;
+}
+/* <!-- about section start--> */
+
+
+/* <!-- work project section start--> */
+.project {
+    height: 700px;
+    background: #efefef;
+}
+
+.project h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 90px;
+}
+
+span.spanClass2 {
+    color: orange;
+}
+
+.card1 img {
+    width: 334px;
+    height: 207px;
+}
+
+.card2 img {
+    width: 334px;
+    height: 207px;
+}
+
+.card3 img {
+    width: 334px;
+    height: 207px;
+}
+.card1 {
+    width: 25%;
+    background-color: white;
+    float: left;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding: 10px 7px;
+}
+
+.card2 {
+    width: 25%;
+    background-color: white;
+    float: left;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding: 10px 7px;
+}
+
+.card3 {
+    width: 25%;
+    background-color: white;
+    float: left;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding: 10px 7px;
+}
+
+.crd1ImgDetails h2 {
+    text-align: center;
+}
+.crd1ImgDetails p {
+    color: dimgray;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* <!-- work project section end--> */
+
+/* <!-- client section start --> */
+
+.clintSayPart {
+    height: 700px;
+}
+
+
+.clintSayPart h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 90px;
+}
+
+.clintPartRow {
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.clintCard1 {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+    transition: transform 0.5s;
+    border-radius: 5px;
+   
+}
+
+.clintCard1:hover{
+    transform: translateY(-7px);
+}
+
+
+.fstPart img {
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid red;
+    position: relative;
+    left: 30px;
+}
+
+.fstPart2 img {
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid red;
+    position: relative;
+    left: 30px;
+}
+
+
+.fstPar3 img {
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid red;
+    position: relative;
+    left: 30px;
+}
+
+
+
+
+.fstPart h4 {
+    float: right;
+    position: relative;
+    right: 75px;
+}
+
+.fstPart2 h4 {
+    float: right;
+    position: relative;
+    right: 110px;
+}
+
+.fstPar3 h4 {
+    float: right;
+    position: relative;
+    right: 90px;
+}
+
+
+i.fab.fa-twitter {
+    position: relative;
+    float: right;
+    left: 77px;
+    top: 25px;
+    color: skyblue;
+}
+
+.fstPart2 i.fab.fa-twitter {
+    position: relative;
+    left: 0px;
+}
+
+.fstPar3 i.fab.fa-twitter {
+    position: relative;
+    left: 35px;
+}
+
+.fstPart p {
+    text-align: center;
+    font-size: 13px;
+    color: #009688;
+    
+}
+
+.fstPart2 p {
+    text-align: center;
+    font-size: 13px;
+    color: #009688;
+    
+}
+
+.fstPar3 p {
+    text-align: center;
+    font-size: 13px;
+    color: #009688;
+    
+}
+
+
+.sndPart p {
+    text-align: center;
+    font-size: 14px;
+    color: #009688;
+}
+
+.sndPart2 p {
+    text-align: center;
+    font-size: 14px;
+    color: #009688;
+}
+
+.sndPart3 p {
+    text-align: center;
+    font-size: 14px;
+    color: #009688;
+}
+/* <!-- client section end --> */
+
+/* footer part start */
+footer.footerPart {
+    height: 550px;
+    width: 100%;
+    background: #efefef;
+}
+
+.workIdentityBox {
+    background-image: url(pic/10.png);
+    background-size: 800px 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+}
+
+.workIdentityBox h1 {
+    position: relative;
+    width: 250px;
+    margin-left: 205px;
+    color: #fff;
+    font-size: 40px;
+}
+
+a.LstsChatBox {
+    position: relative;
+    background-image: linear-gradient(180deg,#227093,#2c2c54);
+    float: right;
+    background-color: red;
+    color: #fff;
+    padding: 10px 55px;
+    border-radius: 10px;
+    text-decoration: none;
+    right: 220px;
+    top: -78px;
+}
+
+.mailId p {
+    text-align: center;
+    color: dimgray;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.mailId h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: -25px;
+}
+
+.socialIcon ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.socialIcon ul li a {
+    font-size: 35px;
+}
+
+.socialIcon {
+    position: relative;
+    width: 50%;
+    left: 534px;
+    top: -52px;
+}
+
+/* footer part end */
